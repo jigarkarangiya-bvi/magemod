@@ -1,12 +1,12 @@
 # Magemod - Magento 2 Developer tool
 
-Magemod is magento 2 developer tool which is come with daily useful tools collection.
+Magemod is magento 2 developer tool which comes with daily useful tools collection.
 
 ## Installation
 
-1. First list item Open Terminal
-2. Go to magento 2 Projects's pub directory.
-3. Ececute below command
+1. Open Terminal
+2. Go to magento 2 Project's pub directory.
+3. Execute below command
 
 ```bash
 git clone https://github.com/jigarkarangiya-bvi/magemod.git
