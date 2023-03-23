@@ -3,10 +3,16 @@
 <head>
 	<title>MageMod v1.0-beta by Jigar Karangiya</title>
 	<?php include 'commons.php'; ?>
+	<?php $page = 'home'; ?>
 </head>
 <body>
+	<nav class="navbar bg-body-tertiary">
+		<div class="container-fluid">
+		<span class="navbar-brand mb-0 h1">MageMod Tool - Jigar Karangiya</span>
+		</div>
+	 </nav>
+	 <div><br></div>
 	<div class="container">
-		<h1 align="center">MageMod Tool</h1>
   		<table class="table table-bordered">
 			<thead>
 			    <tr>
@@ -76,8 +82,19 @@
 					<td>Fetch a list of all observers for specific in Magento 2.</td>
 					<td><a class="btn btn-primary" href="magento_observer_lookup.php" role="button">Go</a></td>
 				</tr>
+				<tr>
+					<th scope="row">11</th>
+					<td>Log Viewer</td>
+					<td>Read any log file in realtime.</td>
+					<td><a class="btn btn-primary" href="log_viewer.php" role="button">Go</a></td>
+				</tr>
+				<tr>
+					<th scope="row">12</th>
+					<td>Dependency Dumper</td>
+					<td>Dump dependency injection in pretty format.</td>
+					<td><a class="btn btn-primary" href="dependency_dumper.php" role="button">Go</a></td>
+				</tr>
 		</table>
-	</div>
 	<?php include 'footer.php'; ?>
 </body>
 </html>

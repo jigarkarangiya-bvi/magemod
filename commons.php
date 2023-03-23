@@ -4,10 +4,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
 <?php 
-ini_set('display_errors', 1);
+/*ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 ini_set('memory_limit', '5G');
-error_reporting(E_ALL);
+error_reporting(E_ALL);*/
+
+$page = '';
 
 use Magento\Framework\App\Bootstrap;
 require '../../app/bootstrap.php';

@@ -13,9 +13,14 @@ if (isset($_POST['class_name']) && $_POST['class_name'] !='') {
 }
 
 ?>
+<nav class="navbar bg-body-tertiary">
+		<div class="container-fluid">
+		<span class="navbar-brand mb-0 h1">Class Debugger Tool</span>
+		</div>
+	 </nav>
+<div><br></div>
 <div class="container">
 	<div class="row">
-      <h2 class="pb-2 border-bottom">Class Debugger Tool</h2>
       <div class="table-responsive">
       <table class="table table-sm table-bordered">
       <form method="post">
@@ -50,8 +55,6 @@ if (isset($_POST['class_name']) && $_POST['class_name'] !='') {
 	</table>
 	 </div>
   </div>
-  <div><a class="btn btn-primary" href="index.php" role="button">Go to home</a></div>
-</div>
 
 <?php include 'footer.php'; ?>
 </body>

@@ -9,9 +9,14 @@
 	$deploymentConfig = $objectManager->get('\Magento\Framework\App\DeploymentConfig');
 	$dbData = $deploymentConfig->get('db/connection/default');
 ?>
+<nav class="navbar bg-body-tertiary">
+	<div class="container-fluid">
+	<span class="navbar-brand mb-0 h1">Magento Database Information</span>
+	</div>
+ </nav>
+ <br>
 <div class="container">
 	<div class="row">
-      <h2 class="pb-2 border-bottom">Magento Database Information</h2>
       <table class="table table-sm table-bordered">
 	 	<tr>
 	 		<th scope="col">DB Host</th>
@@ -52,9 +57,6 @@
 	 	</tr>
 	</table>
   </div>
-  <div><a class="btn btn-primary" href="index.php" role="button">Go to home</a></div>
-</div>
-
 <?php include 'footer.php'; ?>
 </body>
 </html>

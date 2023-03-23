@@ -10,9 +10,15 @@ $magentoMetadata = $objectManager->get('Magento\Framework\App\ProductMetadataInt
 $storeListObj = $objectManager->get('Magento\Store\Api\StoreRepositoryInterface');
 $storeList = $storeListObj->getList();
 ?>
+<nav class="navbar bg-body-tertiary">
+		<div class="container-fluid">
+		<span class="navbar-brand mb-0 h1">Magento Information</span>
+		</div>
+	 </nav>
+<br>
 <div class="container">
 	<div class="row">
-      <h2 class="pb-2 border-bottom">Magento Information</h2>
+
       <table class="table table-sm table-bordered">
 	 	<tr>
 	 		<td>Magento Edition</td>
@@ -56,8 +62,7 @@ $storeList = $storeListObj->getList();
 	</table>
 	</div>
   </div>
-  <div><a class="btn btn-primary" href="index.php" role="button">Go to home</a></div>
-</div>
+
 <?php include 'footer.php'; ?>
 </body>
 </html>
