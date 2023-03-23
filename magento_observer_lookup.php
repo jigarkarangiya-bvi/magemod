@@ -17,9 +17,14 @@ if (isset($_POST['event_name']) && $_POST['event_name'] !='') {
 }
 
 ?>
+<nav class="navbar bg-body-tertiary">
+		<div class="container-fluid">
+		<span class="navbar-brand mb-0 h1">Observer Lookup Tool</span>
+		</div>
+	 </nav>
+<div><br></div>
 <div class="container">
 	<div class="row">
-      <h2 class="pb-2 border-bottom">Observer Lookup Tool</h2>
       <div class="table-responsive">
       <table class="table table-sm table-bordered">
       <form method="post">
@@ -54,8 +59,6 @@ if (isset($_POST['event_name']) && $_POST['event_name'] !='') {
 	</table>
 	 </div>
   </div>
-  <div><a class="btn btn-primary" href="index.php" role="button">Go to home</a></div>
-</div>
 
 <?php include 'footer.php'; ?>
 </body>

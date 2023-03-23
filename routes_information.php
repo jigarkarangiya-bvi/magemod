@@ -81,14 +81,15 @@ foreach ($areas as $area) {
         }
     }
 }
-
-/*echo "<pre>";
-print_r($table);
-die;*/
 ?>
+<nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Routes Information Tool</span>
+        </div>
+     </nav>
+<div><br></div>
 <div class="container">
 	<div class="row">
-      <h2 class="pb-2 border-bottom">Routes Information Tool</h2>   
     	<div class="table-responsive">
         <table class="table table-bordered">
 	 	 <tr>
@@ -112,8 +113,6 @@ die;*/
 	</table>
 	</div>
   </div>
-  <div><a class="btn btn-primary" href="index.php" role="button">Go to home</a></div>
-</div>
 <?php include 'footer.php'; ?>
 </body>
 </html>

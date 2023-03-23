@@ -17,9 +17,14 @@ if (isset($_POST['admin_user'])) {
     $token = $tokenModel->createAdminToken($adminUser->getId());
 }
 ?>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Magento Admin Token Generator</span>
+  </div>
+  </nav>
+<div><br></div>
 <div class="container">
 	<div class="row">
-      <h2 class="pb-2 border-bottom">Magento Admin Token Generator</h2>
       <div class="table-responsive">
       <table class="table table-sm table-bordered">
       <form method="post">
@@ -50,8 +55,6 @@ if (isset($_POST['admin_user'])) {
 	</table>
 	 </div>
   </div>
-  <div><a class="btn btn-primary" href="index.php" role="button">Go to home</a></div>
-</div>
 
 <?php include 'footer.php'; ?>
 </body>
